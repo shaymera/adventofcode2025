@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            var input = File.ReadAllLines("../DayThree/Input/main.txt")
+            var input = File.ReadAllLines("../Day-03/Input/main.txt")
                 .Select(x => x.ToCharArray().Select(y => int.Parse(y.ToString())).ToList()).ToList();
 
             Console.Write("Part 1: ");

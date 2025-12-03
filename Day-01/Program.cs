@@ -4,7 +4,7 @@ static class Program
 {
     public static void Main()
     {
-        var input = File.ReadAllLines("../DayOne/Inputs/main.txt").ToList();
+        var input = File.ReadAllLines("../Day-01/Inputs/main.txt").ToList();
         var moves = input.Select(line => line.StartsWith('L') ? -(int.Parse(line.Substring(1))) : int.Parse(line.Substring(1))).ToList();
 
         Console.Write("Part One: ");

@@ -7,7 +7,7 @@ namespace DayTwo
         static void Main()
         {
             var input = new List<(string, string)>(
-                File.ReadAllText("../DayTwo/Input/main.txt")
+                File.ReadAllText("../Day-02/Input/main.txt")
                         .Split(',')
                         .Select(x => (x.Split('-').First(), x.Split('-').Last()))
                         .ToList()); 
